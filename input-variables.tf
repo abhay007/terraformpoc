@@ -9,14 +9,14 @@ variable "access_key" {
   description = "AccessKey For the IAM User"
   type        = string
   sensitive   = true
-  default     = "AKIA5TS3IMIRZNF2UTUR"
+  default     = ""
 }
 #IAM User Secret Key
 variable "secret_key" {
   description = "SecretKey for the IAM User"
   type        = string
   sensitive   = true
-  default     = "kYp3gRsaH4DDraI3FsuPphwSF+yYvCZKVC9dWdBa"
+  default     = ""
 }
 
 variable "subnet_cidr_private" {
